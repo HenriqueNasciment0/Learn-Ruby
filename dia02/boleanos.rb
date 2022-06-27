@@ -6,10 +6,31 @@ puts "#{quatro}" < "#{mult}" #false
 puts "#{quatro}" != "#{mult}" #false
 puts "#{quatro}" <=> "#{mult}" #0 (comparação igual)
 
-x = 11
-if quatro == 4
-  puts "é igual"
+
+# IF, ELSIF E ELSE
+
+nome = "Aurelio"
+if nome == "Henrique"
+  puts "Esse sou eu"
+elsif nome == "Tiago"
+  puts "Opa, não sou eu"
 else
-  puts "não é igual"
+  puts "Definitivamente não sou eu"
+end
+
+
+# CASE WHEN
+
+cidade = "guaramiranga"
+
+case cidade
+when "maracanaú"
+  puts "média segurança"
+when "fortaleza"
+  puts "perigo total"
+when "guaramiranga"
+  puts "ainda não nasceu uma pessoa má intencionada"
+when "maranguape"
+  puts "média segurança"
 end
 
